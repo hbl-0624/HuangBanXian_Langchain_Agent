@@ -104,6 +104,9 @@ AZURE_TTS_KEY=你的Azure语音密钥
 AZURE_TTS_REGION=你的Azure区域
 ```
 ### 4. 启动项目
+#### 启动redis
+下载redis压缩包，解压后，点击redis sever.exe运行
+
 #### 启动后端 API
 ```bash
 python -m app.main
