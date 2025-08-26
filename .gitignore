@@ -1,0 +1,54 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+*.env
+env.bak/
+venv.bak/
+langchain_agent/
+
+# 安装包
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 日志文件
+logs/
+*.log
+
+# 本地配置文件
+.env
+!.env.example
+
+# 语音文件
+voices/
+
+# 向量数据库数据
+local_qdrant/
+
+# IDE 配置
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 其他临时文件
+tmp/
+temp/
+    

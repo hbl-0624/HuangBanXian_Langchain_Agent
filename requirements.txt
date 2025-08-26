@@ -1,0 +1,44 @@
+# 核心框架
+fastapi==0.108.0
+uvicorn==0.35.0
+streamlit==1.48.1
+
+# LangChain 相关
+langchain==0.1.10
+langchain-community==0.0.25
+langchain-core==0.1.53
+langchain-openai==0.0.5
+langchain-text-splitters==0.0.2
+langsmith==0.1.147
+
+# 向量数据库
+qdrant-client==1.7.1
+
+# 网络请求
+httpx==0.24.1
+requests==2.32.4
+requests-toolbelt==1.0.0
+
+# 数据处理
+pydantic==1.10.22
+pydantic_core==2.33.2
+python-multipart==0.0.9
+python-dotenv==1.1.1
+numpy==1.26.4
+pandas==2.3.2
+pyarrow==21.0.0
+
+# 自然语言处理
+openai==1.99.9
+tiktoken==0.5.2
+
+# 可选：Redis 用于会话存储
+redis==6.4.0
+
+# 网页处理
+beautifulsoup4==4.13.4
+bs4==0.0.2
+
+# 开发工具
+pytest==8.4.1
+    
